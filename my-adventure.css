@@ -13,12 +13,17 @@
     border-color:black;
     border-width:1px;
     border-style: solid;
-    display: inline-block;
+    /* display: inline-block; */
     padding:0px;
+}
+
+.text-align-center {
+    text-align:center;
 }
 .li-none{
     list-style:none;
     padding:0px;
+    text-align:center;
 }
 .right-side{
     margin-left:40rem;
@@ -41,6 +46,9 @@
 .h-200 {
     height:200px;
 }
+.h-750 {
+    height:350px;
+}
 
 .box {
     width:100px;
@@ -52,4 +60,12 @@
 .big-box {
     width:200px;
     height:200px;
+}
+
+.nav-item {
+    width:100px;
+    height:100px;
+    margin-top:20px;
+    background-color:white;
+    text-align:center;
 }
